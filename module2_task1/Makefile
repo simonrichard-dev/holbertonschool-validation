@@ -1,4 +1,5 @@
 build:	## Build:
+	golangci-lint run
 	go build
 
 run:	## Run:
