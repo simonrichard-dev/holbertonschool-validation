@@ -52,8 +52,8 @@ func Test_server(t *testing.T) {
 	{
 	  name:			"Hello_Handler_doesnt_work",
 	  URI:			"/hello?name=",
-	  responseCode: 200,
-	  body:			"Hello there!",
+	  responseCode: 400,
+	  body:			"",
 	},
   }
 
