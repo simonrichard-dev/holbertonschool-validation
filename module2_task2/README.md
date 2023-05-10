@@ -13,4 +13,4 @@
     “test”: You want to test it to ensure that it behaves as expected. With the application started, you may want to use the command line curl (or your web browser, or the command wget or any other HTTP client).
     “lint”: The goal lint should be implemented and should fail when the linter catches and error.
     “help”: Show help for all command.
-    “unit-test”: should be implemented and should execute (successfully) the Golang unit tests.
+    “unit-tests”: should be implemented and should execute (successfully) the Golang unit tests.
