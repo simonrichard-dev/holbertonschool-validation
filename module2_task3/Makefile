@@ -11,6 +11,7 @@ stop:  ## Stop:
 clean: ## Clean:
 	pkill awesome-api || true
 	rm -rf awesome-api awesome-api.log
+	rm -rf coverage-units.out coverage-integrations.out
 
 test:	## Test:
 	go test -v -short -coverprofile=coverage-units.out
