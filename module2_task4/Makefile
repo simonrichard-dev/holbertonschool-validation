@@ -8,7 +8,7 @@ check: ## check
 	markdown-link-check README.md
 
 clean: ## execute a command that clean the dist directory
-	rm -rf dist/*
+	rm -rf dist
 
 validate: ## validation
 	python3 /opt/W3C-Validator/w3c_validator.py ./dist/index.html || true
