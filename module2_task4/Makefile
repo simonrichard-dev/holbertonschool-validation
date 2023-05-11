@@ -1,11 +1,11 @@
 build: ## execute a command that create a new blog
-	markdownlint README.md
-	markdown-link-check README.md
+	markdownlint README.md content/posts/
+	markdown-link-check README.md content/posts/
 	hugo
 
 check: ## check
-	markdownlint README.md
-	markdown-link-check README.md
+	markdownlint README.md content/posts/
+	markdown-link-check README.md content/posts/
 
 clean: ## execute a command that clean the dist directory
 	rm -rf dist
