@@ -26,4 +26,6 @@
 
 - help: Display help message.
 
-- package: create a file named awesome-website.zip (not committed and deleted by make clean)
+- workflow: are defined by a YAML file checked in to your repository and will
+  run when triggered by an event in your repository, or they can be triggered
+  manually, or at a defined schedule.
